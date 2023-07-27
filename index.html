@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+	
+</head>
+<body>
+	<div class="calBox">
+		<div class="displaybox">
+			<input type="text"  data-inp readonly value="0" >
+		</div>
+		<div class="buttonBox">
+			<button onclick="displayInput.value = '0' ">C</button><button data-bolish data-symb>/</button><button data-mub data-symb >*</button><button onclick="backS()"><i class="fas fa-backspace"></i></button><button data-number >7</button><button data-number >8</button><button data-number >9</button><button data-minus data-symb >-</button><button data-number >4</button><button data-number >5</button><button data-number >6</button><button data-plus data-symb >+</button><button data-number >1</button><button data-number >2</button><button data-number >3</button><br><button onclick="teng()" class="teng">=</button><button data-foiz data-symb>%</button><button data-number >0</button><button onclick="dot()" >.</button>
+		</div>
+	</div>
+
+	<script src="script.js" async></script>
+</body>
+</html>
